@@ -1,0 +1,26 @@
+.create-hospital-page {
+  padding: 2rem 0;
+}
+
+.hospital-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.specialities-checkboxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.speciality-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
